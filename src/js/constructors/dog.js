@@ -3,7 +3,11 @@
 function Dog (options) {
   options = options || {};
   this.status = "normal";
-  
+  this.color = "black"
+  this.hungry = (options.hungry == undefined)
+
+
+
 }
 
 
